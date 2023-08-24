@@ -4,6 +4,7 @@ Date: 21/08/2023
 Practical 1.10: Write a program to count a total number of lines and count the total number of lines starting with 'PDS' from the given text file.
 """
 
+# Used sample.txt file for demo
 filename = input("Enter the filename you want to read: ")
 
 with open(filename, 'r') as fname:
