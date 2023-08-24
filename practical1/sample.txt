@@ -1,0 +1,6 @@
+Hello World!
+This is PDS.
+PDS stands for 'Python for Data Science'.
+PDS is professional elective subject.
+PDS is good subject.
+PDS is tought us by P. G. Patel sir.
