@@ -6,7 +6,7 @@ Practical 1.13: Create a tuple to store value of student's marks of pds subject 
 
 def main():
     students = tuple()
-    print("1. Add student marks\n2. Display student marks\nPress any key to exit.")
+    print("1. Add student marks\n2. Display student marks\nPress any key to exit.\n")
     while True:
         ch = int(input("Enter your choice: "))
         if ch == 1:
