@@ -19,12 +19,16 @@ def main():
 
 
 def display_student(students: tuple) -> None:
+    if len(students) == 0:
+        print("No student exits.")
+        return 
+    
     print("+==============================+")
     print("| Name                 | Marks |")
     print("+==============================+")
 
     for student in students:
-        print(f"| {student[0]:20} | {student[1]:5.2f} |")
+        print(f"| {student[0]:20} | {student[1]:05.2f} |")
         print("+------------------------------+")
     
 
