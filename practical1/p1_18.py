@@ -39,7 +39,6 @@ def display_student(students: dict) -> None:
     
     for student in students.items():
         print(f"| {student[1][0]:20} | {student[0]:12} | {student[1][1]:05.2f} |")
-        # print("| 12345678912345678912 | 123456789123 | 1234 |")
         print("+---------------------------------------------+")
     
 

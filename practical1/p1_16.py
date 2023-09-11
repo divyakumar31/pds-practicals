@@ -29,7 +29,7 @@ def add_student(students: dict) -> dict:
 
 def display_student(students: dict) -> None:
     if len(students) == 0:
-        print("No student exits.")
+        print("No student exists.")
         return 
     
     print("+=====================================+")
@@ -44,6 +44,10 @@ def display_student(students: dict) -> None:
 
 
 def remove_student(students: dict) -> dict:
+    if len(students) == 0:
+        print("No student exists.")
+        return 
+    
     enroll = int(input("Enter student\'s enrollment number to remove: "))
     del students[enroll]
     

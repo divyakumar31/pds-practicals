@@ -20,7 +20,7 @@ def main():
 
 def display_student(students: tuple) -> None:
     if len(students) == 0:
-        print("No student exits.")
+        print("No student exists.")
         return 
     
     print("+==============================+")

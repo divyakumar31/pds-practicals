@@ -18,12 +18,16 @@ def main():
 
 
 def add_student(students: set) -> set:
-    enroll = int(input("Enter student name: "))
+    enroll = int(input("Enter student enroll no.: "))
     students.add(enroll)
     return students
 
 
 def display_set(students: set) -> None:
+    if len(students) == 0:
+        print("No student exists.")
+        return 
+
     sorted_students = sort_set(students)
     for student in sorted_students:
         print(student)

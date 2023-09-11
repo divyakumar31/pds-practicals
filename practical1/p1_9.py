@@ -7,17 +7,12 @@ Practical 1.9: Write a program to find Highest Common Factor (HCF) and Greatest 
 def main():
     num1 = int(input("Enter number 1: "))
     num2 = int(input("Enter number 2: "))
-    print(calculate_gcd(num1, num2))
+    print(f"GCD of {num1} and {num2} is", calculate_gcd(num1, num2))
 
 
 def calculate_gcd(num1: int, num2: int) -> int:
     """
     This function is used to find Greatest Common Divisior of two numbers.
-    :param : num1, num2
-    :type : int
-    :raise TypeError: If num1 or num2 is not an int
-    :return: A greatest common divisior
-    :rtype : int
     """
     smaller = min(num1, num2)
     for i in range(1, smaller+1):

@@ -3,13 +3,14 @@ Author: PATEL DIVYAKUMAR BHARATBHAI
 Date: 21/08/2023
 Practical 1.5: Write a program which will allow user to enter 10 numbers and display largest odd number from them. It will display appropriate message in case if no odd number is found and display count of odd numbers. 
 """
-from pandas import array as arr
+# from pandas import array as arr
 evenCount = 0
 oddCount = 0
 
-arr[10]
+arr = []
 for n in range(10):
-    arr[n] = int(input(f"Enter {n}th number: "))
+    num = int(input(f"Enter {n}th number: "))
+    arr.append(num)
 
 
 largestEven = largestOdd = arr[0]
